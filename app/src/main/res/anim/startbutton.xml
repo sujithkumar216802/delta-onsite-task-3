@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <scale
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:fromXScale="100%"
+        android:toXScale="125%"
+        android:fromYScale="100%"
+        android:toYScale="125%"
+        android:duration="750"/>
+
+
+    <scale
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:fromXScale="100%"
+        android:toXScale="80%"
+        android:fromYScale="100%"
+        android:toYScale="80%"
+        android:startOffset="750"
+        android:duration="750"/>
+
+
+    <scale
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:fromXScale="100%"
+        android:toXScale="125%"
+        android:fromYScale="100%"
+        android:toYScale="125%"
+        android:startOffset="1500"
+        android:duration="750"/>
+
+
+    <scale
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:fromXScale="100%"
+        android:toXScale="80%"
+        android:fromYScale="100%"
+        android:toYScale="80%"
+        android:startOffset="2250"
+        android:duration="750"/>
+
+
+
+
+    <rotate
+        android:pivotY="50%"
+        android:pivotX="50%"
+        android:fromDegrees="0"
+        android:toDegrees="30"
+        android:duration="750"/>
+
+
+
+
+    <rotate
+        android:pivotY="50%"
+        android:pivotX="50%"
+        android:startOffset="750"
+        android:fromDegrees="0"
+        android:toDegrees="-30"
+        android:duration="750"/>
+
+
+
+
+    <rotate
+        android:pivotY="50%"
+        android:pivotX="50%"
+        android:fromDegrees="0"
+        android:toDegrees="-30"
+        android:startOffset="1500"
+        android:duration="750"/>
+
+
+
+
+    <rotate
+        android:pivotY="50%"
+        android:pivotX="50%"
+        android:startOffset="2250"
+        android:fromDegrees="0"
+        android:toDegrees="30"
+        android:duration="750"/>
+
+
+
+
+</set>
